@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+
+/* _______________________________________________________ */
+
+
+.header {
+  padding-top: 0;
+  padding-bottom: 430px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 67.4%, #000000 100%),
+                    url(../img/header_bg.jpg);
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
